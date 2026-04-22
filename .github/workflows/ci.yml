@@ -2,6 +2,7 @@ name: CI
 
 # TODO(step-6a): trigger the workflow on push targeting the `main` branch.
 on:
+  workflow_dispatch:
   push:
     branches: [main]
 
